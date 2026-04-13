@@ -1,13 +1,12 @@
-import SearchBox from "./SearchBox.jsx"
+import WeatherApp from "./WeatherApp.jsx";
+import "./App.css"
 
 function App() {
-  
-
   return (
     <>
-     <SearchBox/>
+      <WeatherApp />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

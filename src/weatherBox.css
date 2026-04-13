@@ -1,0 +1,14 @@
+.weatherBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.boxInfo{
+    border: 1px solid black !important;
+    width: 20rem !important;
+    border-radius: 12px !important;
+    padding: 16px !important;
+    background-color: #e3f2fd!important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
