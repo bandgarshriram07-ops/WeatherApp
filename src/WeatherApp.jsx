@@ -3,13 +3,13 @@ import WeatherBox from "./weatherBox.jsx"
 import { useState } from "react";
 
 export default function WeatherApp(){
-    let [weatherInfo,setWeatherInfo] = useState({city: null,
-    FeelsLike: "",
-    MaxTemp: "",
-    MinTemp: null,
-    Temp: null,
-    Weather:null,
-    humidity: null,});
+    let [weatherInfo,setWeatherInfo] = useState({city: "mumbai",
+    FeelsLike: "40.27",
+    MaxTemp: "34.99",
+    MinTemp: "33.34",
+    Temp: "34.33",
+    Weather:"clear sky",
+    humidity: "40",});
 
     let updateInfo = (newInfo) => {
         setWeatherInfo(newInfo);
