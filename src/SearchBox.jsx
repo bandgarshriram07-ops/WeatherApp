@@ -57,6 +57,8 @@ export default function SearchBox({ updateInfo }) {
           variant="outlined"
           onChange={handelChange}
           value={city}
+          style={{backgroundColor:"lightBlue",borderRadius:"5px", color:"black",
+             fontWeight:"bold"}} 
         />
         <br />
         <br />

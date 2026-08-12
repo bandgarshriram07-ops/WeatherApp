@@ -1,5 +1,11 @@
-.counter {
-  background-color: #ffffff;
-  border: 1px solid #90caf9;
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body,#root{
+  font-family: 'Roboto', sans-serif;
+  background-color: #EAFF7B;
+  min-height: 100vh;
+  width: 100%;
 }

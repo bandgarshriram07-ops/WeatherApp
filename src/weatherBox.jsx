@@ -49,14 +49,18 @@ export default function WeatherBox({ info }) {
               sx={{ color: "text.secondary" }}
               component="span"
             >
-              <p>
-                <b>Temp : {info.Temp}&deg;C</b>
+              <p> Temp :
+                <b style={{ fontWeight: "bold" , color: "red" }}> {info.Temp}&deg;C</b>
               </p>
-              <div>
-                <b>MaxTEMP : {info.MaxTemp}&deg;C</b>
+              <div>MaxTEMP :
+                <b style={{ fontWeight: "bold" , color: "red"}}>  {info.MaxTemp}&deg;C</b>
               </div>
-              <p>MinTEMP : {info.MinTemp}&deg;C</p>
-              <p>Humidity : {info.humidity}</p>
+              <p>MinTemp :
+                <b style={{ fontWeight: "bold" , color: "red" }}> {info.MinTemp}&deg;C</b>
+              </p>
+              <p>Humidity :
+                <b style={{ fontWeight: "bold" , color: "red" }}> {info.humidity}%</b>
+              </p>
               <p>
                 <i>
                   The Weather Can Be Described as <b>{info.Weather}</b> And
